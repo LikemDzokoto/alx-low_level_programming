@@ -4,8 +4,6 @@
  * free_dlistint - frees a dlistint_t list
  *
  * @head: head of the list
- * Return: no return
- * Author: Martins Akhivbareme
  */
 void free_dlistint(dlistint_t *head)
 {
