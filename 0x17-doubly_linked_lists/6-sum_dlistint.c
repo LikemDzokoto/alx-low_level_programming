@@ -5,8 +5,6 @@
  * of a doubly linked list
  *
  * @head: head of the list
- * Return: sum of the data
- * Author: Martins Akhivbareme
  */
 int sum_dlistint(dlistint_t *head)
 {
