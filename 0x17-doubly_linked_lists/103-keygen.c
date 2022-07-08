@@ -7,8 +7,7 @@
  *
  * @usrn: username
  * @len: length of username
- * Return: the biggest number
- * Author: Martins Akhivbareme
+ *
  */
 int f4(char *usrn, int len)
 {
