@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-void print_arr(int *arr, size_t start_idx, size_t end_idx);
 
 /**
  * print_arr -function to return  array everytime array is halved
@@ -8,12 +7,11 @@ void print_arr(int *arr, size_t start_idx, size_t end_idx);
  * @size:  the number of elements in array
  * @value:the value to search for
  * Return: value if found else return  -1
- *
- *
  */
 
-
-size_t i = 0;
+void print_arr(int *array, size_t l, size_t r)
+{
+	size_t i = 0;
 
 	printf("Searching in array: ");
 	for (i = l; i <= r; i++)
@@ -24,6 +22,14 @@ size_t i = 0;
 			printf("%d\n", array[i]);
 	}
 }
+
+/**
+ * binary_search - search mids
+ * @array: given array of ints
+ * @size: size of array
+ * @value: value to search for
+ * Return: index at which value's found
+ */
 int binary_search(int *array, size_t size, int value)
 {
 	size_t mid = 0;
